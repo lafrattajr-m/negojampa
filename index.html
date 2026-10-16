@@ -1,35 +1,36 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b1521">
-  <meta name="robots" content="noindex, nofollow">
-  <title>Nego Jampa | Em desenvolvimento</title>
-  <meta name="description" content="O site Nego Jampa está em desenvolvimento. Em breve, novidades.">
-  <style>
-    :root{color-scheme:dark;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-    *{box-sizing:border-box}
-    body{margin:0;min-height:100svh;display:grid;place-items:center;background:radial-gradient(ellipse at 50% 0%,#19344b 0%,#0b1521 52%,#070d15 100%);color:#f4f7fb;padding:24px}
-    main{width:min(100%,680px);text-align:center;padding:64px 28px;border:1px solid #ffffff20;border-radius:24px;background:#ffffff08;box-shadow:0 24px 90px #0005}
-    .eyebrow{display:inline-block;padding:9px 15px;border:1px solid #78d9b852;border-radius:999px;background:#78d9b810;color:#a2efcd;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
-    h1{font-size:clamp(2.6rem,8vw,5rem);letter-spacing:-.065em;line-height:1.05;margin:28px 0 12px}
-    h2{font-weight:500;font-size:clamp(1.2rem,3vw,1.7rem);margin:0;color:#cad7e3}
-    p{max-width:470px;margin:24px auto 0;color:#a9bac9;line-height:1.7;font-size:1.03rem}
-    .line{width:56px;height:3px;background:#78d9b8;border-radius:3px;margin:32px auto}
-    footer{color:#8699aa;font-size:.82rem}
-    @media (prefers-reduced-motion:no-preference){main{animation:enter .8s ease-out both}@keyframes enter{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}}
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1521">
+<meta name="robots" content="noindex, nofollow">
+<title>Nego Jampa | Em desenvolvimento</title>
+<meta name="description" content="Nego Jampa: estamos preparando um novo espaço. Acompanhe as novidades no Instagram.">
+<style>
+:root{color-scheme:dark;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;--navy:#0b1521;--mint:#78d9b8;--blue:#20a8ee}
+*{box-sizing:border-box}body{margin:0;min-height:100svh;display:grid;place-items:center;padding:24px;background:radial-gradient(ellipse at 50% 0%,#19344b 0%,var(--navy) 52%,#070d15 100%);color:#f4f7fb}
+main{width:min(100%,700px);text-align:center;padding:clamp(30px,7vw,64px) 24px;border:1px solid #ffffff20;border-radius:26px;background:linear-gradient(140deg,#ffffff0e,#ffffff04);box-shadow:0 24px 90px #0006}
+.logo{display:block;max-width:min(74vw,300px);width:100%;height:auto;margin:0 auto 26px;border-radius:22px}
+.brand{font-size:clamp(2.7rem,8vw,4.7rem);font-weight:850;line-height:1.05;letter-spacing:-.06em;margin:22px 0 12px}
+.brand strong{color:#f4f7fb}.brand em{font-style:normal;color:#42b9ed}
+.eyebrow{display:inline-block;padding:9px 15px;border:1px solid #78d9b852;border-radius:999px;background:#78d9b810;color:#a2efcd;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
+h2{font-weight:500;font-size:clamp(1.2rem,3vw,1.6rem);margin:0;color:#cad7e3}
+p{max-width:480px;margin:22px auto 29px;color:#a9bac9;line-height:1.7;font-size:1.03rem}
+.cta{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:15px 25px;text-decoration:none;background:linear-gradient(110deg,var(--mint),#41b7eb);color:#092032;font-weight:750;transition:transform .2s,box-shadow .2s}
+.cta:hover,.cta:focus-visible{transform:translateY(-2px);box-shadow:0 8px 28px #78d9b840}
+footer{margin-top:36px;color:#8699aa;font-size:.82rem}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
+</style>
 </head>
 <body>
-  <main>
-    <span class="eyebrow">Novidades em breve</span>
-    <h1>Nego Jampa</h1>
-    <h2>Estamos em desenvolvimento.</h2>
-    <p>Estamos preparando um novo espaço para você. Nosso site estará disponível em breve.</p>
-    <div class="line" aria-hidden="true"></div>
-    <footer>© <span id="year">2026</span> Nego Jampa. Todos os direitos reservados.</footer>
-  </main>
-  <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+<main>
+<span class="eyebrow">Novidades em breve</span>
+<h1 class="brand"><strong>Nego</strong> <em>Jampa</em></h1>
+<h2>Estamos em desenvolvimento.</h2>
+<p>Estamos preparando um novo espaço para você. Enquanto isso, acompanhe nossas novidades no Instagram.</p>
+<a class="cta" href="https://www.instagram.com/nego.jampa" target="_blank" rel="noopener noreferrer">Acompanhe @nego.jampa ↗</a>
+<footer>© <span id="year">2026</span> Nego Jampa. Todos os direitos reservados.</footer>
+</main>
+<script>document.getElementById("year").textContent=new Date().getFullYear()</script>
 </body>
 </html>
